@@ -127,4 +127,13 @@ text-decoration: none;
 .about-card h4{
     font-size: 20px;
 }
+#skills{
+    padding-top: 130px;
+
+}
+.skill-countainar{
+    width: 71%;
+    max-width: 1140%;
+    margin: 0 auto;
+}
 
