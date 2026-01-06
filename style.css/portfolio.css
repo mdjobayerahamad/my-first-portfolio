@@ -25,6 +25,21 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.section-headingt{
+    max-width: 827px;
+    text-align: center;
+}
+.section-headingt h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-headingt p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 /* main style */
 header{
     background-color: #FFF8F3;
@@ -89,5 +104,27 @@ text-decoration: none;
     max-width:584px ;
     vertical-align: middle;
 }
-
+#about{
+    padding-top: 130px;
+}
+.about-countainar{
+    width: 71%;
+    max-width: 1140%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+.card{
+    display: flex;
+    justify-content: space-around;
+}
+.about-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+.about-card h4{
+    font-size: 20px;
+}
 
