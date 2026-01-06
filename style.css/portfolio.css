@@ -23,16 +23,21 @@
     color: white;
     font-weight: bold;
     border-radius: 5px;
+    cursor: pointer;
 }
 /* main style */
 header{
     background-color: #FFF8F3;
     padding-top: 50px;
+    background: url("../images/developer.png"), url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+    
 }
 nav{
     width: 71%;
     max-width: 1140%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -49,3 +54,40 @@ font-size: 20px;
 color: #474747;
 text-decoration: none;
 }
+#bannar{
+    border: 1px solid rebeccapurple;
+    margin: 46px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bannar.bannar-content{
+    max-width: 585px;
+}
+.bannar-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+
+}
+.bannar-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+
+}
+.bannar-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
+.bannar-img img{
+    max-width:584px ;
+    vertical-align: middle;
+}
+
+
